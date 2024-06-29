@@ -7,7 +7,48 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="wrapper">
+
+        <div class="gradient-box"></div>
+            <div class="row options">
+                <div class="column direction">
+                    <p>Direction</p>
+                    <div class="selectbox">
+                        <select name="" id="">
+                            <option value="to top">Top</option>
+                            <option value="to right top">Right top</option>
+                            <option value="to right">Right</option>
+                            <option value="to right bottom">Right Bottom</option>
+                            <option value="to bottom">Bottom</option>
+                            <option value="to left bottom">Bottom</option>
+                            <option value="to left">Left</option>
+                            <option value="to left top">Left Top</option>
+                        </select>
+
+                    </div>
+                </div>
+                <div class="column colors">
+                    <p>Colors</p>
+                    <div class="inputs">
+                        <input type="color" value="#566se9">
+                        <input type="color" value="#a271f8">
+                    </div>
+                </div>
+            </div>
+     
+        <textarea class="row" disabled>
+            background: liner-gradient(to left top)
+        </textarea>
+        <div class="row buttons">
+            <button class="refresh">Refresh colors</button>
+            <button class="copy">Copy Code</button>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
     
 </body>
-<script src="script.js"></script>
+
 </html>
